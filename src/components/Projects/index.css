@@ -1,0 +1,194 @@
+.projectImage1{
+    height: 457px;
+    width:500px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+}
+
+.projectImage123{
+    height: 457px;
+    width:500px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.listCon{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px;
+    width: 1000px;
+}
+.proCon{
+height: 457px;
+width: 500px;
+padding: 40px;
+ box-shadow: 1px 1px 1px 1px;
+ border-bottom-left-radius: 40px;
+ border-top-left-radius: 40px;
+}
+
+.proCon123{
+    height: 457px;
+    width: 500px;
+    padding: 40px;
+     box-shadow: 1px 1px 1px 1px;
+     border-bottom-right-radius: 40px;
+     border-top-right-radius: 40px;
+    }
+.paraDes{
+    color: #828282;
+    font-size: 20px;
+    font-family: "Roboto";
+}
+
+.viewButton{
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+.titlePro{
+font-family: Playfair Display;
+font-size: 30px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+@media only screen and  (max-width:460px){
+
+    .projectImage1{
+        height: 300px;
+        width:330px;
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+        padding: 10px;
+    }
+    .projectImage123{
+        height: 300px;
+        width:330px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    
+    .listCon{
+        list-style-type: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        box-shadow: 1px 1px 1px 1px;
+        margin: 10px;
+        margin-bottom: 20px;
+        width: 400px;
+        border-radius: 20px;
+    }
+    .proCon{
+    height: 580px;
+    width: 280px;
+    padding: 40px;
+     box-shadow: 0px 0px 0px 0px;
+     border-bottom-left-radius: 40px;
+     border-top-left-radius: 40px;
+    
+    }
+
+    .proCon123{
+        height: 580px;
+        width: 280px;
+        padding: 40px;
+         box-shadow: 0px 0px 0px 0px;
+         border-bottom-right-radius: 40px;
+         border-top-right-radius: 40px;
+        
+        }
+    .paraDes{
+        color: #828282;
+        font-size: 18px;
+        font-family: "Roboto";
+    }
+    
+    .viewButton{
+        height: 50px;
+        width: 150px;
+        border-radius: 25px;
+        font-size: 18px;
+    }
+    .titlePro{
+    font-family: Playfair Display;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+}
+
+@media only screen and  (min-width:470px) and (max-width:900px){ 
+    .projectImage1{
+        height: 557px;
+        width:300px;
+        /* border-radius: 50px; */
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+    
+    }
+
+    .projectImage123{
+        height: 557px;
+        width:300px;
+        border-top-left-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
+    
+    .listCon{
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 20px;
+        width: 1000px;
+    }
+    .proCon{
+    height: 557px;
+    width: 360px;
+    padding: 40px;
+     box-shadow: 1px 1px 1px 1px;
+     border-bottom-left-radius: 40px;
+     border-top-left-radius: 40px;
+    
+    }
+    .proCon123{
+        height: 557px;
+        width: 360px;
+        padding: 40px;
+         box-shadow: 1px 1px 1px 1px;
+         border-bottom-right-radius: 40px;
+         border-top-right-radius: 40px;
+        }
+    .paraDes{
+        color: #828282;
+        font-size: 20px;
+        font-family: "Roboto";
+    }
+    
+    .viewButton{
+        height: 50px;
+        width: 150px;
+        border-radius: 25px;
+        font-size: 18px;
+    }
+    .titlePro{
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+}
